@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #b1{
+            border: 4px solid rgb(15, 109, 233);
+        }
+        .t1{
+            padding: 10px;
+        }
+        #a2{
+    background-color: rgb(239, 244, 242);
+}
+    </style>
+</head>
+<body id="a2">
+    <form>
+    <div>
+        <Table align="center" class="t1" >
+            <tr>
+                <th rowspan="2"><img src="C:\Users\B Subham Patra\Downloads\swaraswati.jpg"</th>
+                <th align="center" style="color:rgb(15, 160, 233); font-size: 35px;" width="1150">SDVM COLLEGE</th>
+                <th rowspan="2"><img src="C:\Users\B Subham Patra\Downloads\swaraswati.jpg"</th>
+            </tr>
+            <tr>
+                <th align="center"style="color:red; font-size: 25px;">STUDENT REGISTRATION FORM</th>
+            </tr>
+        </Table>
+    </div>
+        <br>
+   
+    <div id="b1">
+    <table  >
+        <tr >
+            <td class="t1"><label for="Sid" ><b>STUDENT ID</b></label></td>
+            <td><input type="text"  id="a2" name="nm" placeholder="name" ></td>
+        </tr>
+        <tr >
+            <td class="t1"><label for="Sname" ><b>STUDENT NAME</b></label></td>
+            <td><input type="text"  id="a2" name="nm" placeholder="name" ></td>
+        </tr>
+        <tr>
+            <td class="t1"><label for="Fname"><b>FATHER'S NAME</b></label></td>
+            <td><input type="text" id="a2" name="fname" placeholder="fname"></td>
+        </tr>
+        <th colspan="2" class="t1"><fieldset>
+            <legend>gender</legend>
+            <input type="radio"id="a3"name="gen"value="male">male
+            <input type="radio"id="a3"name="gen"value="female">female
+        </fieldset>
+        </th>
+        <tr>
+            <td class="t1"><label for="dob"><b>DATE OF BATH</b></label></td>
+            <td><input type="date" id="a2" name="dof"value="dob"></td>
+        </tr>
+        <tr>
+            <td class="t1"> <label for="email"><b>E.MAIL</b></label></td>
+            <td><input type="email" id="a2" name="email"placeholder="use '@'"></td>
+        </tr>
+        <tr>
+            <td class="t1"><lebel for="qualification">QUALIFICATION</lebel></td>
+            <td><select name="qualification"value="class" id="a2">
+        <optgroup label="class">
+            <option value="10th">10th</option>
+            <option value="12th">12th</option>
+            <option value="15th">+3</option>
+        </optgroup>
+        </select></td>
+        </tr>
+        <tr>
+            <td class="t1"><label for="no.">MOBILE NUMBER</label></td>
+            <td><select name="c code"value="code" id="a2">
+                <optgroup label="country code">
+                    <option value="+91">+91</option>
+                    <option value="+92">+92</option>
+                    <option value="+63">+63</option>
+                </optgroup>
+            </select>
+                <input type="text" id="a2" name="n1" pattern="[0-9]{1,10}" maxlength="10" placeholder="no.">
+        </tr>
+    </table>
+</div>
+<br>
+<input type="submit">
+<input type="reset">
+</form>
+</body>
+</html>

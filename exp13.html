@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+        <?php
+    function prime()
+    {
+        
+            var x=document.getElementById("n").value;
+
+        $flag=1;
+        var y=parseInt(x);
+        
+        for($i=1;$i<$y;i++)
+        {
+            if($y%2==0)
+            {
+                $flag=2;
+                break;
+            }
+        }
+        if($flag==2)
+        {
+            alert("prime  no.")
+        }
+        else
+        {
+            alert("not a prime  no.")
+        }
+    
+    }
+    ?>
+</script>
+    <form>
+        <table>
+            <th colspan="2">PHP PRIME OR NOT CHECK</th>
+            <tr>
+                <td><label for="php">input a number: </label></td>
+                <td><input type="numberd" id="n"></td>
+            </tr>
+        </table>
+        <input type="submit" onclick="prime()">
+    </form>
+</body>
+</html>

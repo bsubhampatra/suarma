@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        .c1{
+            color:rgb(240, 12, 12); 
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .c2{
+            background:transparent;
+        }
+    </style>
+</head>
+<body background=  "https://images6.alphacoders.com/126/1260062.jpg" style="background-position:center; background-size: cover;">
+    <form >
+        <h1 style="color:rgb(229, 168, 38) ;font-family:Algerian"><center>HOUSE OF THE DRAGON</center></h1>
+        <marquee width="100%" direction="left" height="100px" style="color:rgb(175, 227, 18);"><b>Dragons became extinct around 100 million years ago.</b></marquee>
+        <table width="100%" height="650" >
+   <tr>
+    <td class="c1" ><label for ="st"><b>DRAGON NAME</b></label></td>
+    <td><input type="text"  class="c2" name="name" maxlength="10" minlength="5" placeholder="DRAGON" ></td>
+</tr>
+<tr>
+    <td class="c1"><label for ="st"><B>DRAGON RIDER</B></label></td>
+    <td><input type="text" name="id" placeholder="RIDER" class="c2"></td>
+</tr>
+<tr>
+<td class="c1"><lebel for="address"><B>DRAGONPIT</B></lebel></td>
+<td><textarea rows="1" cols="50" name="address" placeholder="ADDRESS " class="c2"></textarea></td>
+</tr>
+<tr>
+<td  class="c1"><lebel for="pwd"><b>DRAGON COMMAND</b></lebel></td>
+<td><input type="password" name="pwd" maxlength="10" required  pattern="[d,r,a,g,o,n]{1,6}" placeholder=" DRAGON " required  class="c2"></td>
+</tr>
+<tr>
+<td class="c1"><label for="gender"><B>DRAGON GENDER </B></label></td>
+<td  class="c1"><input type="radio" name="g" value="male" >male
+    <input type="radio" name="g" value="female" class="c2">female</td>
+</tr>
+<tr>
+<td  class="c1"><lebel for="qualification">DRAGON POWER</lebel></td>
+<td  class="c1"><input type="checkbox" name="10th-qual" value ="got-it" required>FLIGHT
+    <input type="checkbox" name="12th-qual" value ="got-it" class="c2">FIRE BREATH
+    <input type="checkbox" name="10th-qual" value ="goy-it" class="c2">INVULNERABLITY</td>
+</tr>
+<tr>
+<td class="c1"><lebel for="sec">DRAGON TYPE</lebel></td>
+<td><select name="sec" class="c2" >
+    <optgroup label="TYPE">
+        <option value="A">VHAGAR</option>
+        <option value="B">SYRAX</option>
+        <option value="C">RHYGAR</option>
+    </optgroup>
+</select>
+    <select name="sec" class="c2">
+    <optgroup label="AGE">
+        <option value="2000">100-200</option> 
+        <option value="2001">200-300</option>
+        <option value="2002">300-500</option>
+    </optgroup>
+</select></td>
+</tr>
+<tr>
+<td  class="c1"><label for="city"><B>DRAGON BIRTH PLACE</B></label></td>
+<td><input type="text" name="city" list="c1" placeholder="BIRTH PLACE"class="c2">
+    <datalist id="c1">
+        <option value="DRAGONSTONE">DRAGONSTONE</option> 
+        <option value="KINGS LANDING">KINGS LANDING</option> 
+        <option value="OLD VALYRIA">OLD VALYRIA</option> 
+        <option value="ESSOS">ESSOS</option> 
+    </datalist></td>
+</tr>
+<tr>
+<td  class="c1"><label for="dob"><B>DRAGON HATCH ON</B></label></td>
+<td><input type="date" name="dob"class="c2"></td>
+</tr>
+</table>
+<img id="a1" src="C:\Users\B Subham Patra\Downloads\teargerian..png" width="200px" height="200px" align="right">
+<br>
+    <input type ="submit"style="background:green;">
+    <input type ="reset"style="background:green;">
+        
+</form>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a1{
+            float: right;
+        }
+       #a2{
+        padding: 10px;
+       }
+    </style>
+</head>
+<body>
+    <div align="center" id="a2"><script >
+        var pic,i=1;
+        function light() {
+          
+            if(i==1)
+              {
+                pic="smile.png";
+                document.getElementById('myImage').src = pic;
+            i=2;
+
+            }
+            else if(i==2)
+             {
+                pic="charles.png";
+                document.getElementById('myImage').src = pic;
+            i=3;
+            }
+            else if(i==3)
+            {
+                pic="smart.png";
+                document.getElementById('myImage').src = pic;
+            i=4;
+            }
+            else if(i==4)
+            {
+                pic="shorma.png";
+                document.getElementById('myImage').src = pic;
+            i=5;
+             }
+            else if(i==5)
+            {
+                pic="think.png";
+                document.getElementById('myImage').src = pic;
+            i=6;
+            }
+            else if(i==6)
+            {
+                pic="eye.svg.png";
+                document.getElementById('myImage').src = pic;
+            }
+        }
+        function hii()
+        {
+        setInterval(light,500);
+        }
+        </script>
+        
+        <img id="myImage" src="think.png" width="500" height="500">
+        
+        <p>
+        <button type="button" onclick="hii()">click</button>
+        </p>
+    </div>
+</body>
+</html>
